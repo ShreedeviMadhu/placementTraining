@@ -1,0 +1,469 @@
+Java File---> .java
+Compilation : ---> .class file (Bytecode)
+Platform Independent ---> WORA --> Write Once Run Anywhere
+MAC
+Linux
+Windows
+
+javac Filename.java
+java Filename
+Eclipse :
+
+public class Rudra {
+    main ctrl - space
+    syso ctrl - space
+}
+
+JDK - Java Development Kit
+An environment for software development & Java Applications
+JRE - Java Runtime Environment
+An environment for only Java Applications
+JVM - Java Virtual Machine
+Any Individual Machine PC/Laptop
+
+JIT Compiler - Its a compiler to convert Bytecode to native Java Code
+Just In Time Compiler
+
+x = 10
+y = 20
+
+z = x+y
+
+Naming Conventions:
+
+class ---- CamelCase   RateOfInterest MountEverest
+methods ----  pascalCase amountOfMoney
+variables --- pascalCase amountOfMoney
+
+
+Anatomy Of A Java Program :
+
+package com.company;
+
+public class ClassName {     CamelCase
+    public static void main(){   PascalCase
+        statements...;
+        statements...;
+    }
+}
+
+Package: It is a collection of similar Classes.
+Class : It is a collection of similar functions.
+Function : A block of code which can perform a specific task.
+
+Access Modifiers :
+
+Operators:
+Arithmetic Operators --> +,-,/,%,*
+Assignment Operators --> =,+=,-=,/=,%=,*=  Shorthand Operator/Augmented Operator
+Relational Operators --> / Comparison Operators  >,<,>=,<=,==,!=
+Logical Operators --> && ||
+Bitwise Operators  --> & ^ | ~ >> <<
+Ternary Operator --> ? :
+Unary Operator --> (postfix/prefix) (++,--)
+
+And
+a b R
+F F F
+F T F
+T F F
+T T T
+
+Or
+a b R
+F F F
+F T T
+T F T
+T T T
+
+
+20 --
+
+     64 32 16 8 4 2 1
+
+              1 0 0 0
+            1 0 1 0 0
+
+DRY : Don't Repeat Yourself
+
+Method/Function : A block of code which performs a specific task.
+
+datatype method_name(int a, int b){  // Method Definition / Declaration (Parameters)
+    //method_body
+}
+
+method_name(2,3)  // Method Call // Arguments
+
+// The variables declared in function definition are called parameters.
+// the actual values passed during function call are called arguments.
+
+Method : String name   : Name --> Subhash
+Print: --> Hi! Subhash
+
+Datatypes :
+Primitive : byte, short, ...
+Reference : Strings, Dates
+String : A sequence of characters that is immutable.
+You can create a new string but the old string will not change.
+
+Control Statements :
+Decision Making / Conditional Statements :
+* if statement
+* if - else
+* if-else if ladder
+* nested if else
+* switch statements
+
+Looping Statements
+* for
+* while
+* do-while
+* enhanced for loop/ for each
+* nested for loop
+
+Jump Statements
+* continue
+* break
+
+
+if (condition){
+    //Do something
+}
+else{
+    /Do something else
+}
+Task:
+Universal Adult Franchise : Right to Vote
+
+age 18 or more :
+int age = 19;
+
+Eligible for voting
+Not eligible for voting
+
+Loops:
+While Loop :
+while (condition) {
+    // Statements you want to execute
+    increment/decrement
+}
+The increment/decrement operator is very important or else
+the loop will become an infinite loop and it will never terminate.
+
+Do - While syntax:
+do {
+    //statements
+}
+while (condition)
+
+Difference b/w while & do-while :
+
+In while loop, the condition is checked first and then the statements
+are executed.
+In do while the statement is executed at least once.
+Then the condition is checked.
+
+For Loop Syntax:
+
+for (statement 1; statement 2; statement 3){
+    // statements to be executed
+}
+for (initialisation; condition; increment/decrement){
+    // statements..
+}
+Break : Terminates the loop
+Continue : Goes to the starting of the loop for the next iteration
+
+i = 0,1,2,3,4
+j = 0,0,2,3,4
+
+i = 0, j = 0,1,2,3,4
+0,1,2,3,4
+i = 1, j = 0,1,2,3,4
+1,2,3,4,5
+i = 2, j = 0,1,2,3,4
+2,3,4,5,6
+
+target:
+
+1x1=1 2 3 4 5 6 7 8 9 10
+2 4 ................
+
+
+....
+10, 20 ...........100
+
+Object oriented programming: Code Re usability
+
+Class  : Blueprint/template : No Memory
+Object : It Has Memory
+
+Vehicle Class : Types of vehicles (Car/Bike)
+Fruit : Apple, Mango, Guava
+Object : Object is same as Instance
+Attribute: Properties
+Methods: The behaviour of an object
+
+Constructor is a special method which is invoked when an object is created.
+Each time an object is created, the constructor will be called or invoked.
+A constructor does not have any return type. And the access specifier is public.
+
+class_name object_name = new class_name();
+
+Scanner is a class in java.util package user for interacting with the user.
+
+Tasks/Assignment:
+
+Scanner Class :
+Area of a triangle
+Total surface area of a cuboid :
+take l,b,h from user
+Formula : 2(lb+bh+lh)
+Display tsa
+Display areaOfTriangle
+Robust : Difficult to break
+Types of variables:
+1. Static reference variables: Scope is inside all the methods.
+It belongs to the class.
+We use the static keyword.
+If not initialized, the variables have default values.
+
+2. Instance reference variables: Scope is inside the particular class and all the methods
+   and object needs to be created.
+3. Local reference variables: Scope is inside the particular method.
+
+Constructor & Types:
+
+It is a special method which is invoked or called whenever an object / instance is created.
+It doesn't have any return type
+It ends with a parenthesis
+
+Types:
+Default:
+Parameterized:
+    1. No of parameters
+    2. Type of parameters
+
+Date Class Examples :
+Displaying time,date,time&date, formatting result.
+
+Regular Expression: Pattern Matching
+Input data : Java Programming
+Match data : Java
+Verify the match
+
+Array: An arrangement/collection of similar / meaningful data.
+private method: --> it can only be accessed inside that particular class.
+Object Oriented Programming:
+Classes
+Objects
+Methods
+
+4 pillars of OOPs:
+
+1. Encapsulation:
+Capsule :
+Protect the data/content inside
+To protect the content inside a class.
+Getters & Setters
+Data Hiding.
+2. Inheritance:
+The process of inheriting the properties of the parent class into the child class is called
+inheritance.
+We make use of the 'extends' keyword for achieving inheritance.
+ParentClass-ChildClass
+SuperClass-SubClass
+BaseClass-ChildClass
+Single Level
+A - Parent
+B - Child
+Multi Level
+P - Grand Parent
+Q - Parent
+R - Child
+
+Multiple Inheritance: Java doesn't support multiple inheritance directly
+We make use of interfaces
+Father    Mother
+     Child
+
+   Interfaces
+
+
+3. Abstraction:
+Mobile --> Call ---> Parents, Friend, Wife, Husband
+Remote Control : We don't bother how it works.
+We just bother about what it does.
+Hiding the implementation details and only showing the functionality to the user.
+'What' is visible
+'How' is not visible
+
+Car : engine, steering, brakes, clutch, accelerator
+1. abstract classes and methods
+2. interfaces
+
+Abstract class:  0 - 100%
+It is a restricted class which cannot have objects.
+We need to inherit this class to create objects. (extends keyword)
+Abstract methods:
+Can be used in abstract classes and they do not have a body.
+The body is provided in the child class(inherited class).
+Note: An abstract class can have both abstract and regular methods.
+Realtime Example: Message : SMTP ? SMS ? Port Number?
+
+2. Interfaces: 100%
+It is a completely abstract class that is used to group related methods
+with empty bodies.
+'implements' keyword is used.
+--> Security
+--> Multiple Inheritance is not supported in Java. Therefore we use Interfaces.
+We use commas to separate the interfaces.
+
+Polymorphism: poly - many morph - shapes/forms
+In the class / session ---> Saurav --> ? Trainer/ Teacher
+AT home                ---> Saurav --> ? Son
+Restaurant             ---> Saurav --> ? Customer
+Entity : Saurav
+Role : Changing
+Technical Terms: Same method will have different use.
+1. Method Overloading
+2. Method Overriding
+
+1. Method Overloading:
+If a class has multiple methods having same name but different parameters,
+it is known as method overloading.
+Two ways of implementing method overloading:
+a. Same method, but no of parameters changes.
+b. Same method, but datatype of arguments changes.
+2. Method Overriding:
+
+Same method from parent taken to child and implemented differently.
+Rules:
+a. Method must have the same name as in the parent class.
+b. Method must have the same parameters as in the parent class.
+c. There should be a IS-A relationship.(Inheritance)
+
+Scenario:
+Reserve bank : rate of interest : 6
+Axis bank : 7
+ICICI bank: 8
+HDFC bank: 9
+
+class A a
+class B b
+class C c
+Class B extends
+4. Polymorphism:
+
+static keyword
+this / super
+access modifiers
+final keyword
+
+a
+b
+c
+
+a b c
+  d
+
+Take user input of a range of numbers:
+10
+1-ODD
+2-EVEN
+.....
+10-EVEN
+scanner class
+for loop
+factorial of a number 5 = 5*4*3*2*1 = 120
+                      1 = 1
+                      0 = 1
+                     -1 = invalid
+                     n! = n * (n-1)!
+                     5! = 5 * 4!
+                     4! = 4 * 3!
+
+Recursion : A function calling itself is called recursion.
+factorial
+sum
+print a range of numbers
+
+Exception:
+It disturbs/disrupts the normal flow of your program
+It actually can be handled.
+
+Error:
+
+Final/Finally/Finalize :
+final float pi = 3.14;
+pi = 4;
+Final --> It is a keyword. Used in front of method, class or variable
+Finally -> It is a block in exception handling in java which gets executed even though
+there may be exceptions in the program. It is used for closing or clearing resources.
+Finalize -> It is a method of the Object class in Java. It is used for garbage collection.
+
+throw : it is used to create user-defined exceptions
+throws: it is for suppressing your exceptions
+
+Access Modifiers:
+private : class level
+default : package private
+protected : secured
+public : accessible to all
+
+-> you cannot use private/protected in front of classes
+-> constructors are always public
+-> no constructors should be declared private. If done, instance/object cannot be created.
+
+Access Modifier         Within the Class        Within the Package      Outside the Package
+----------------------------------------------------------------------------------------------------
+private                    Yes                  No                      No
+default                    Yes                  Yes                     No
+protected                  Yes                  Yes                     Yes (Using Inheritance)
+public                     Yes                  Yes                     Yes
+----------------------------------------------------------------------------------------------------
+
+Enum for days
+Enum for months
+
+String Buffer & String Builder:
+These are classes which actually help developers to create mutable strings/objects.
+Strings: Immutable cannot be changed/only copies can be created.
+
+pow()
+
+a = return a*a*a;
+c = return c*c;
+
+VS Code
+NetBeans
+CommandPrompt
+Notepad
+
+Sign In Priority 2
+Sign Up Priority 1
+Login - HomePage - Contacts - About
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
